@@ -19,7 +19,7 @@ fn main() {
 
     // Calulate total from half of the values
     let mut total = 0;
-    for x in 0..((heap.len() + 1) / 2) {
+    for _x in 0..((heap.len() + 1) / 2) {
         total += heap.pop().unwrap();
     }
 
